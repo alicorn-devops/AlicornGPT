@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="アリコーン株式会社" src="./assets/logo.png" class="logo" >
+  <ChatBotVue  />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import ChatBotVue from './components/ChatBot.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ChatBotVue
   }
 }
 </script>
@@ -22,5 +21,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.logo{
+  width:128px;
+  height: 128px;
 }
 </style>

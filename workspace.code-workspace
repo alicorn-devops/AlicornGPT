@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\chatgpt-html"
+		}
+	],
+	"settings": {
+		"powershell.cwd": "c:\\Projects\\ChatGTP\\chatgpt-html"
+	}
+}
